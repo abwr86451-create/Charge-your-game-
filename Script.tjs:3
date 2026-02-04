@@ -1,0 +1,12 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const buttons = document.querySelectorAll('button');
+    
+    buttons.forEach(button => {
+        button.addEventListener('click', function() {
+            const game = this.parentElement.querySelector('h3').textContent;
+            const price = this.parentElement.querySelector('.price').textContent;
+            
+            alert(`شكراً لطلبك!\n\nاللعبة: ${game}\nالسعر: ${price}\n\nسيتم التواصل معك خلال دقائق للدفع والتوصيل.`);
+        });
+    });
+});
