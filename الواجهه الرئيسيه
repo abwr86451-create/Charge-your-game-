@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر شحن الألعاب - العراق</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎮 متجر شحن نقاط الألعاب</h1>
+        <p>شحن النقاط بالدينار العراقي | دفع آمن وسريع</p>
+    </header>
+    
+    <div class="container">
+        <div class="game-card">
+            <h3>FORTNITE</h3>
+            <p>10,000 نقطة</p>
+            <p class="price">5,000 دينار عراقي</p>
+            <button>اشتري الآن</button>
+        </div>
+        
+        <div class="game-card">
+            <h3>FREE FIRE</h3>
+            <p>1,000 ماسة</p>
+            <p class="price">4,500 دينار عراقي</p>
+            <button>اشتري الآن</button>
+        </div>
+    </div>
+    
+    <footer>
+        <p>للدفع: Zain Cash | AsiaHawala | FastPay</p>
+        <p>التواصل: @GameStoreIraq</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
