@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #4b6cb7, #182848);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.game-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: 2px solid #4b6cb7;
+}
+
+.price {
+    color: #e44d26;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+button {
+    background: #4b6cb7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background: #182848;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background: #333;
+    color: white;
+    border-radius: 10px;
+}
